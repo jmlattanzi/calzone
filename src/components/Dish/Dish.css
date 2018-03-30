@@ -1,0 +1,77 @@
+.Wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 97%;
+}
+
+.Dish {
+    height: auto;
+    width: 30%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+}
+
+.DishImage {
+    width: 250px;
+    height: 250px;
+    margin: 0 10px 10px 10px;
+}
+
+.Description {
+    border: 1px solid #eee;
+    /* box-shadow: 0 2px 3px #ccc; */
+    width: 50% auto;
+    margin: 10px;
+}
+
+.DescriptionAlt {
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    width: 79%;
+    margin: 10px auto;
+}
+
+.Recipe {
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    width: 50%;
+    margin: 10px;
+}
+
+.Recipe ol {
+    text-align: left;
+    /* border: 1px solid #eee; */
+    padding-top: 20px;
+    margin: 10px 40px;
+}
+
+.Nutrition {
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    width: 80%;
+    margin: 10px auto;
+}
+
+@media (max-width: 500px) {
+    .Wrapper {
+        display: inline-block;
+    }
+
+    .Dish {
+        width: 90%;
+        margin: auto;
+    }
+
+    .Recipe {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .Nutrition {
+        width: 86%;
+        margin: auto;
+    }
+}

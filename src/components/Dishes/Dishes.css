@@ -1,0 +1,13 @@
+.Dish {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    display: inline-block;
+}
+
+.Dish:hover {
+    cursor: pointer;
+    box-shadow: 1px 4px 3px #ccc;
+}
